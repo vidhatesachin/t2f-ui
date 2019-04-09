@@ -11,8 +11,10 @@
         </mat-form-field>
     </form>
     <span class="nav-spacer"></span>
-    
-    <button class="hidden-sm" mat-icon-button [matMenuTriggerFor]="language">
+    <button class="hidden-sm" mat-icon-button  >
+            <mat-icon>search</mat-icon>
+        </button>
+    <!-- <button class="hidden-sm" mat-icon-button [matMenuTriggerFor]="language">
         <mat-icon>language</mat-icon>
     </button>
     <mat-menu #language="matMenu">
@@ -23,7 +25,7 @@
             <span>{{ 'Hindi' | translate }}</span>
         </button>
        
-    </mat-menu>
+    </mat-menu> -->
     <button class="hidden-sm" mat-icon-button [matMenuTriggerFor]="profile">
         <mat-icon>account_circle</mat-icon>
     </button>
